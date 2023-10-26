@@ -45,7 +45,7 @@ def select_suggestion(event):
         if __name__ == "__main__":
             host = host.replace(" ", "")
             port = 5900
-            password = "firasawni"
+            password = ""
             connect_to_vnc_server(host, port, password)
         
 
